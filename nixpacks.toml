@@ -11,4 +11,4 @@ cmds = [
 ]
 
 [start]
-cmd = "python gestor_compras.py"
+cmd = "python Gestor.py"
