@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "python gestor_compras.py",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
