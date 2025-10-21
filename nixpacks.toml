@@ -1,0 +1,14 @@
+[phases.setup]
+cmds = [
+  "apt-get update",
+  "apt-get install -y libgl1 libglib2.0-0 libsm6 libxext6 libxrender-dev libgomp1",
+  "mkdir -p /tmp/.easyocr"
+]
+
+[phases.build]
+cmds = [
+  "pip install -r requirements.txt"
+]
+
+[start]
+cmd = "python gestor_compras.py"
