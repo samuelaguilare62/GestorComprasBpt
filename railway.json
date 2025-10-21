@@ -3,7 +3,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "python gestor_compras.py",
+    "startCommand": "python Gestor.py",
     "restartPolicyType": "ON_FAILURE"
   }
 }
